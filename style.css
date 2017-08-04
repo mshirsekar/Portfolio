@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+h1 {
+  font-size: 50px;
+  font-family: 'Dancing Script', cursive;
+}
+h2 {
+  font-size:25px;font-family:Georgia;color: #6d274f;
+}
+p {
+  font-size:18px;font-family:Georgia;
+}
+body {
+  text-align:center;border-style: double;font-family:Georgia;padding-left: 2cm;padding-right: 2cm;
+}
+ul {
+  padding-left:0;
+}
+li {
+  list-style-position:inside;
+}
+h1 {
+ overflow: hidden;
+ text-align: center;
+}
+h1:before,
+h1:after {
+ background-color: #333;
+ content: "";
+ display: inline-block;
+ height: 1px;
+ position: relative;
+ vertical-align: middle;
+ width: 50%;
+}
+h1:before {
+ right: 0.5em;
+ margin-left: -50%;
+}
+h1:after {
+ left: 0.5em;
+ margin-right: -50%;
+}

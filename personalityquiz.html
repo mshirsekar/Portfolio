@@ -1,0 +1,36 @@
+<html>
+<head></head>
+<title>Personality Quiz</title>
+<link rel="stylesheet" type= "text/css" href= "personalityquiz.css">
+<body>
+      <h1>What Type of Dog are You?</h1>
+<img src="http://www.animatedimages.org/data/media/202/animated-dog-image-0168.gif" alt="pug">
+<br>
+  <div class="question" id="quiz">
+<h2>Do you like dogs?</h2>
+  <input type="radio" name="q1" value="dog">Yes</input>
+<input type="radio" name="q1" value="cat">No</input>
+<h2>What is your favorite toy?</h2>
+<input type="radio" name="q2" value="siberianHusky">Bone</input>
+<input type="radio" name="q2" value="chowChow">Rope</input>
+<input type="radio" name="q2" value="cavalierKingCharles">Kong</input>
+<input type="radio" name="q2" value="bulldog">Shoes</input>
+<h2>What part of the house are you not allowed in?</h2>
+<input type="radio" name="q3" value="siberianHusky">Bedroom</input>
+<input type="radio" name="q3" value="chowChow">Couch</input>
+<input type="radio" name="q3" value="spaniel">Bathroom</input>
+<input type="radio" name="q3" value="bulldog">Basement</input>
+<h2>What is your favorite dog treat?</h2>
+<input type="radio" name="q4" value="siberianHusky">Dinner Scraps</input>
+<input type="radio" name="q4" value="chowChow">Pupperoni</input>
+<input type="radio" name="q4" value="spaniel">Beggin' Strips</input>
+<input type="radio" name="q4" value="bulldog">Milk Bone</input>
+</div>
+<br>
+<button type="button" onclick="quiz()">Submit</button>
+<br>
+<p id="output"></p>
+<br>
+</body>
+<script src="personalityquiz.js"></script>
+</html>

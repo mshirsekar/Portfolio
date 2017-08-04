@@ -1,0 +1,12 @@
+body {
+  text-align: center;
+  background-color: #87a7e0
+}
+#ubbi {
+  font-size: 40px;
+  font-family: Georgia;
+}
+input {
+  width: 200px;
+  height: 120px;
+}

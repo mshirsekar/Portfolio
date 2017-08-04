@@ -1,0 +1,23 @@
+ @font-face {
+  font-family:"paws";
+  src:url("PuppyBellies.ttf");
+  font-weight:150px;
+}
+h1 {
+  font-family: "paws";
+  font-size: 50px;
+}
+h2 {
+  font-size: 27px;
+}
+body {
+  font-family:"paws";
+  background-image: url("pinkpaws.jpg");
+  text-align: center;
+}
+#quiz {
+  border: 2px solid black;
+  width: 700px;
+  display:inline-block;
+  padding-bottom: 30px;
+}
